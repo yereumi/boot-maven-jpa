@@ -36,13 +36,3 @@ public class ProductDetailOTOBoth extends BaseEntity {
 	private ProductOTOBoth product;
 
 } // class
-
-
-
-
-
-
-
-
-
-

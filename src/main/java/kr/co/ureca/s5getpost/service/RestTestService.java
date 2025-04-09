@@ -26,7 +26,7 @@ public class RestTestService {
 	public EmpDTO empInsert(EmpDTO dto) {
 		Emp emp = EmpToDtO.DTOToEmp(dto);
 		Emp savedEmp = repository.save(emp);
-		dto.setId( emp.getId() );
+		dto.setId( savedEmp.getId() );
 		return dto;
 	} // empInsert
 

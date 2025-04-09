@@ -2,9 +2,19 @@ package kr.co.ureca.dto;
 
 import com.querydsl.core.annotations.QueryProjection;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
 
-@Data // @Getter @Setter @ToString @EqualsAndHashCode @RequiredArgsConstructor
+@Getter
+@Setter
+@ToString
+@NoArgsConstructor
+@AllArgsConstructor
+//@Data // @Getter @Setter @ToString @EqualsAndHashCode @RequiredArgsConstructor
 public class EmpDTO2 {
 
 	private Long id;

@@ -29,20 +29,10 @@ public class ProductDetailOTOOnly extends BaseEntity {
 
 	private String description;
 
-//	@OneToOne(optional = true) // product 값이 없이 detail 객체를 생성 가능. - default
-//	@OneToOne(optional = false) // product 값이 없이 detail 객체를 생성 불가능.
+//	@OneToOne(optional = true) // product 값이 없이 detail 객체를 생성 가능. - default // outer join
+//	@OneToOne(optional = false) // product 값이 없이 detail 객체를 생성 불가능. // inner join
 	@OneToOne
 	@JoinColumn(name = "product_number")
 	private ProductOTOOnly product;
 
 } // class
-
-
-
-
-
-
-
-
-
-

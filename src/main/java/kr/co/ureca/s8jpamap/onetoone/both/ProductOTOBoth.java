@@ -40,9 +40,3 @@ public class ProductOTOBoth extends BaseEntity {
 	@ToString.Exclude
 	private ProductDetailOTOBoth productDetail;
 } // class
-
-
-
-
-
-
